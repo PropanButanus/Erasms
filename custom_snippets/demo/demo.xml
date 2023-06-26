@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <data>
+        <record id="marketing_manager" model="hr.job">
+            <field name="name">Marketing Manager</field>
+            <field name="sequence">1</field>
+        </record>
+        <record id="software_developer" model="hr.job">
+            <field name="name">Software Developer</field>
+            <field name="sequence">2</field>
+        </record>
+        <record id="sales_executive" model="hr.job">
+            <field name="name">Sales Executive</field>
+            <field name="sequence">3</field>
+        </record>
+        <record id="human_resources_specialist" model="hr.job">
+            <field name="name">Human Resources Specialist</field>
+            <field name="sequence">4</field>
+        </record>
+        <record id="project_manager" model="hr.job">
+            <field name="name">Project Manager</field>
+            <field name="sequence">5</field>
+        </record>
+    </data>
+</odoo>

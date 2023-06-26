@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="custom_button" name="Custom button">
+            <section class="custom-button">
+                <div class="container">
+                    <div class="container">
+                    <div class="row my-2">
+                        <t t-set="job_list" t-value="request.env['hr.job'].sudo().search([], limit=4)"/>
+                        <t t-foreach="job_list" t-as="job">
+                            <div class="col-md-6 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img t-att-src="'/web/image/hr.job/' + str(job.id) + '/image_128'"
+                                         class="card-img-top" alt="Job Image"/>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <t t-esc="job.name"/>
+                                        </h5>
+                                        <p class="card-text">
+                                            <t t-esc="job.description"/>
+                                        </p>
+                                        <a t-att-href="'/jobs/detail/' + str(job.id)"
+                                           class="btn btn-primary">Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

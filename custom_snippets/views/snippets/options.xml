@@ -1,0 +1,19 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<odoo>-->
+<!--    <data>-->
+<!--        <template id="custom_snippet-options" inherit_id="website.snippet_options">-->
+<!--            <expath expr="." position="inside"></expath>>-->
+<!--                <div data-selector="section, [class^=col-md']><>-->
+<!--                    <div class="card" style="width: 18rem;">-->
+<!--                    <img src="https://image.geo.de/30139388/t/Dl/v3/w1440/r0/-/wien-f-175321055-jpg&#45;&#45;79261-.jpg" class="card-img-top" alt="Photo of Wien"/>-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Card title</h5>-->
+<!--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
+<!--        </template>-->
+<!--    </data>-->
+<!--</odoo>-->

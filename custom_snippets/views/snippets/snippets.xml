@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_structure" class="o_panel">
+                <div class="o_panel_header">Dynamic Custom Snippets</div>
+                <div class="o_panel_body">
+                    <t t-snippet="custom_snippets.accordion"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Accordion</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.dropdown"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>REMOVE ME</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.custom_button"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Custom button</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.card"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Card with image</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.carousel"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Carousel</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.list"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Carousel</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.navbar"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Carousel</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.scrollspy"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Carousel</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.collapse"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Carousel</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.placeholder"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>Carousel</keywords>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
